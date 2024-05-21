@@ -20,5 +20,6 @@ from gestionlibros.views import saludo
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('saludo/', saludo)
+    path('saludo/', saludo),
+    path('',saludo)
 ]
